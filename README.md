@@ -20,3 +20,6 @@ npm run build
 * Axios: Realizar comunicación con apis externas.
 * Vue Router: Manejo de rutas.
 * Animate.css: Utilizar animaciones css. Lo utilice en las transiciones del loading y mostrar y ocultar ventana modal para mostrar detalle de pokemon.
+
+## Url Prueba
+https://pokemon.webfactory.cloud

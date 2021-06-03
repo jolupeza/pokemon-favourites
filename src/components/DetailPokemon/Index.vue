@@ -111,6 +111,12 @@ export default {
       padding: 15px;
       position: relative;
       text-align: center;
+      img {
+        max-height: 150px;
+        @media screen and (min-width: 992px) {
+          max-height: none;
+        }
+      }
     }
     &__close {
       background-color: transparent;
@@ -142,6 +148,12 @@ export default {
     display: flex;
     justify-content: space-between;
     padding: 5px 30px 15px;
+    .Button {
+      font-size: 1rem;
+      @media screen and (min-width: 992px) {
+        font-size: 1.125rem;
+      }
+    }
     &__star {
       background-color: #f5f5f5;
       border: none;
