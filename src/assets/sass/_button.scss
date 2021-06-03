@@ -1,0 +1,26 @@
+.Button {
+  border: none;
+  border-radius: 60px;
+  color: $white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 11px 20px;
+  text-align: center;
+  transition: background-color 0.2s ease-in;
+  &--primary {
+    background-color: $firstColor;
+    &:focus,
+    &:hover {
+      background-color: $secondColor;
+      color: $white;
+    }
+  }
+  &--variant {
+    background-color: $textColorAlt;
+    &:focus,
+    &:hover {
+      background-color: $firstColor;
+      color: $white;
+    }
+  }
+}
