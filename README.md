@@ -15,15 +15,8 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tecnologías empleadas:
+* Vuex: Manejo de estados de la aplicación. Listado de pokemons, buscador y selección de favoritos.
+* Axios: Realizar comunicación con apis externas.
+* Vue Router: Manejo de rutas.
+* Animate.css: Utilizar animaciones css. Lo utilice en las transiciones del loading y mostrar y ocultar ventana modal para mostrar detalle de pokemon.
